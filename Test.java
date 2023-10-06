@@ -14,13 +14,13 @@ public class Test{
         }
 		System.out.println("Before Sorting :: ");
         System.out.println(Arrays.toString(array));
-        insertionSort(array);
+        Sort(array);
         System.out.println("After Sorting :: ");
         System.out.println(Arrays.toString(array));
         scanner.close();
 	}
 	
-	public static void insertionSort(int array[]){
+	public static void Sort(int array[]){
 		int n = array.length;
 		for(int i=1;i<n;i++){
 			int key = array[i];
